@@ -1,0 +1,7 @@
+  + [Static Analysis](doc/static-analysis)
+      + [Usage](doc/static-analysis#usage)
+      + [Packages](doc/static-analysis#usage)
+      + [Configs](doc/static-analysis#usage)
+      + [Scripts](doc/static-analysis#usage)
+      + [Files](doc/static-analysis#usage)
+  + [Static Analysis](doc/static-analysis)

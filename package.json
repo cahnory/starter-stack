@@ -1,0 +1,28 @@
+{
+  "name": "stack-starter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src",
+    "lint": "npm run lint:eslint && npm run lint:flow",
+    "lint:eslint": "./node_modules/.bin/eslint src",
+    "lint:flow": "./node_modules/.bin/flow",
+    "build": "babel -s -d dist src",
+    "watch": "babel -w -s -d dist src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^7.1.0",
+    "babel-jest": "^16.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.6.1",
+    "flow-bin": "^0.34.0",
+    "jest": "^16.0.2"
+  }
+}

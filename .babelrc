@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-flow-strip-types"
+  ],
+  "ignore": [
+    "__tests__",
+    "**/*.test.js",
+    "**/*.spec.js"
+  ],
+  "env": {
+    "jest": {
+      "ignore": [""]
+    }
+  }
+}
