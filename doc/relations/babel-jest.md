@@ -1,23 +1,44 @@
 # *Babel* & *Jest*
 
++ [Install](#install)
+    + [Packages](#packages)
+        + [babel-jest](#babel-jest)
+    + [Config](#config)
+        + [.babelrc](#babelrc)
+
 # Install
 
 ### Packages
 
   + babel-jest
 
-## Config
+#### babel-jest
+
+The babel parser for jest. [read more](https://babeljs.io/docs/plugins/transform-flow-strip-types/)
+
+### Config
 
 #### .babelrc
 
-Tel babel not to transpile test files.
+Tel babel not to transpile test files. We specified env in order to get tests transpiled while in *jest* env.
 
 ```json
 {
-  "ignore": [
-    "__tests__",
-    "**/*.test.js",
-    "**/*.spec.js"
-  ]
+  "env": {
+    "development": {
+      "ignore": [
+        "__tests__",
+        "**/*.test.js",
+        "**/*.spec.js"
+      ]
+    },
+    "production": {
+      "ignore": [
+        "__tests__",
+        "**/*.test.js",
+        "**/*.spec.js"
+      ]
+    }
+  }
 }
 ```

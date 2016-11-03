@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest src",
-    "lint": "npm run lint:eslint && npm run lint:flow",
-    "lint:eslint": "./node_modules/.bin/eslint src",
-    "lint:flow": "./node_modules/.bin/flow",
     "build": "babel -s -d dist src",
-    "watch": "babel -w -s -d dist src"
+    "build:watch": "babel -w -s -d dist src",
+    "lint": "./node_modules/.bin/eslint src",
+    "prepublish": "npm run build",
+    "test": "npm run test:flow && npm run test:unit",
+    "test:flow": "./node_modules/.bin/flow",
+    "test:unit": "jest --no-cache"
   },
   "author": "",
   "license": "ISC",

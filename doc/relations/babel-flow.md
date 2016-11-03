@@ -1,16 +1,26 @@
 # *Babel* & *Flow*
 
++ [Install](#install)
+    + [Packages](#packages)
+        + [babel-plugin-transform-flow-strip-types](#babel-plugin-transform-flow-strip-types)
+    + [Config](#config)
+        + [.babelrc](#babelrc)
+
 ## Install
 
 ### Packages
 
   + babel-plugin-transform-flow-strip-types
 
-## Config
+#### babel-plugin-transform-flow-strip-types
+
+A babel plugin removing flow types. [read more](https://babeljs.io/docs/plugins/transform-flow-strip-types/)
+
+### Config
 
 #### .babelrc
 
-Tel babel to remove flow types.
+Tel babel to use the plugin which will remove flow types.
 
 ```json
 {

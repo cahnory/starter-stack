@@ -1,19 +1,33 @@
 # ESLint
 
++ [Usage](#usage)
+    + [lint](#lint)
++ [Install](#install)
+    + [Packages](#packages)
+        + [eslint](#eslint)
+    + [Config](#config)
+        + [.eslintrc](#eslintrc)
+    + [Scripts](#scripts)
+
 ## Usage
 
-### Scripts
+### lint
 
-| name        | command                           |
-|-------------|-----------------------------------|
-| lint:eslint | `./node_modules/.bin/eslint src`  |
+Lint your sources.
 
+```
+npm run lint
+```
 
 ## Install
 
 ### Packages
 
-  + eslint
++ [eslint](#eslint)
+
+#### eslint
+
+The ESLint linter, the core library. [read more](http://eslint.org/docs/about/)
 
 ### Config
 
@@ -38,3 +52,9 @@
   ]
 }
 ```
+
+### Scripts
+
+| name        | command                           |
+|-------------|-----------------------------------|
+| lint        | `./node_modules/.bin/eslint src`  |
