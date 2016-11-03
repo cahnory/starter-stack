@@ -41,7 +41,7 @@
             + [Packages](elements/jest.md#packages)
                 + [jest](elements/jest.md#jest)
             + [Scripts](elements/jest.md#scripts)
-    + [React](react.md)
+    + [React with JSX](react.md)
         + [Install](react.md#install)
             + [Elements](react.md#elements)
                 + [babel](react.md#babel)

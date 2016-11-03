@@ -40,7 +40,7 @@
         + [Packages](jest.md#packages)
             + [jest](jest.md#jest)
         + [Scripts](jest.md#scripts)
-+ [React](react.md)
++ [React with JSX](react.md)
     + [Install](react.md#install)
         + [Elements](react.md#elements)
             + [babel](react.md#babel)
