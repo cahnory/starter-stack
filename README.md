@@ -6,6 +6,7 @@ A javascript dev stack featuring:
 + **eslint** linter
 + **flow** static types checker
 + **jest** unit tester
++ **react** user interface library
 
 ## Documentation
 

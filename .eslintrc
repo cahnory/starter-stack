@@ -1,6 +1,7 @@
 {
   "extends": [
-    "eslint:recommended"
+    "eslint:recommended",
+    "plugin:react/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -18,5 +19,8 @@
     "semi"          : ["error", "never"],
     "comma-dangle"  : ["error", "always-multiline"],
     "complexity"    : ["warn",  2]
-  }
+  },
+  "plugins": [
+    "react"
+  ]
 }
