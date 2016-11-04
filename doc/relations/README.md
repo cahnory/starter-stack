@@ -1,42 +1,17 @@
 # Relations
 
+|        | Babel | ESLint | Flow | Jest | React |
+|-------:|:-----:|:------:|:----:|:----:|:-----:|
+| Babel  |       |        |      |      |       |
+| ESLint |       |        |      |      |       |
+| Flow   |       |        |      |      |       |
+| Jest   |       |        |      |      |       |
+| React  |       |        |      |      |       |
+
 + [Babel & ESLint](babel-eslint.md)
-    + [Install](babel-eslint.md#install)
-        + [Packages](babel-eslint.md#packages)
-            + [babel-eslint](babel-eslint.md#babel-eslint)
-        + [Config](babel-eslint.md#config)
-            + [.eslintrc](babel-eslint.md#eslintrc)
 + [Babel & Flow](babel-flow.md)
-    + [Install](babel-flow.md#install)
-        + [Packages](babel-flow.md#packages)
-            + [babel-plugin-transform-flow-strip-types](babel-flow.md#babel-plugin-transform-flow-strip-types)
-        + [Config](babel-flow.md#config)
-            + [.babelrc](babel-flow.md#babelrc)
 + [Babel & Jest](babel-jest.md)
-    + [Install](babel-jest.md#install)
-        + [Packages](babel-jest.md#packages)
-            + [babel-jest](babel-jest.md#babel-jest)
-        + [Config](babel-jest.md#config)
-            + [.babelrc](babel-jest.md#babelrc)
 + [Babel & React](babel-react.md)
-    + [Install](babel-react.md#install)
-        + [Packages](babel-react.md#packages)
-            + [babel-preset-react](babel-react.md#babel-preset-react)
-        + [Config](babel-react.md#config)
-            + [.babelrc](babel-react.md#babelrc)
 + [ESLint & Flow](eslint-flow.md)
-    + [Install](eslint-flowmd#install)
-        + [Packages](eslint-flowmd#packages)
-            + [babel-eslint](eslint-flowmd#babel-eslint)
-        + [Config](eslint-flowmd#config)
-            + [.eslintrc](eslint-flowmd#eslintrc)
 + [ESLint & React](eslint-react.md)
-    + [Install](eslint-react.md#install)
-        + [Packages](eslint-react.md#packages)
-            + [eslint-plugin-react](eslint-react.md#eslint-plugin-react)
-        + [Config](eslint-react.md#config)
-            + [.eslintrc](eslint-react.md#eslintrc)
 + [Jest & React](jest-react.md)
-    + [Install](jest-react.md#install)
-        + [Packages](jest-react.md#packages)
-            + [react-test-renderer](jest-react.md#react-test-renderer)
