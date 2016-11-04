@@ -1,21 +1,16 @@
-# React with JSX
+# [Documentation](../README.md) > [Elements](README.md) > React (with JSX)
 
 + [Install](#install)
-    + [Elements](#elements)
-        + [babel](#babel)
+    + [Transpiler](#transpiler)
     + [Packages](#packages)
         + [jest](#jest)
     + [Scripts](#scripts)
 
 ## Install
 
-### Elements
+### Transpiler
 
-  + [babel](#babel)
-
-#### babel
-
-A transpiler is needed to get jsx syntax to work. babel is the one used in this stack. [read more](babel.md)
+A [transpiler](../topics/transpile.md) is needed to get jsx syntax to work. [babel](babel.md) is the one used in this stack. [read more](../topics/transpile.md)
 
 ### Packages
 
